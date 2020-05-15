@@ -93,4 +93,4 @@ def make_animation( name ):
     print('Saving animation as ' + name)
     f = fork()
     if f == 0:
-        execlp('convert', 'convert', '-delay', '.1', name_arg, name) # 1.7 second delay
+        execlp('convert', 'convert', '-delay', '1.7', name_arg, name)
